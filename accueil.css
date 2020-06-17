@@ -1,0 +1,250 @@
+
+@font-face {
+    font-family: "SangBleuEmpire-Medium";
+    src: url('font/SangBleuEmpire-Medium.otf');
+}
+
+@font-face {
+    font-family: "SangBleuEmpire-Regular";
+    src: url('font/SangBleuEmpire-Regular.otf');
+}
+
+@font-face {
+    font-family: "Berthold Akzidenz Grotesk Bold";
+    src: url('font/Berthold Akzidenz Grotesk Bold.otf');
+}
+      /* ---------------------------------  barre menu  --------------------------------- */
+
+/*
+*{ 
+	margin: 0; 
+    padding: 0;
+    cursor: url("images/curseur.cur") 100 0, pointer;
+}
+*/
+
+nav {
+	margin-top: 0%;
+	background-color: white;
+	z-index : 2;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: auto;
+}
+
+nav a { 
+	
+	font-size: 100%;
+	font-family: 'SangBleuEmpire-Regular', sans-serif;
+	color: black; 
+	text-decoration: none; 
+	padding: 0 12px;
+	text-align: center;
+	
+}
+nav a:hover { 
+	color: red; 
+} 
+
+
+
+      /* ---------------------------------  images  --------------------------------- */
+
+#box
+{
+	height: 2000px;
+	width: 100%;
+
+}
+
+#gauche{ 
+	width: 50%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	position: absolute;
+	left: 0;
+	top: 0px;
+	background-color: white;
+	float:left;
+}
+
+#droite{ 
+	width: 50%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	position:fixed; 
+	top: -113.5vw; 
+	margin-right:0px;
+	right: 0;
+	background-color: white;
+	float:right;
+
+}
+
+.content{ 
+	display:inline-block; 
+	width:50%; 
+	line-height: 0.55; //  computes to (font-size * line-height);
+	max-height: #gauche
+}
+
+.scroll{
+	background-color: yellow;
+	max-height: 20vw;
+	overflow: hidden;
+
+}
+
+.white{
+	background-color: none;
+
+}
+
+/* ---------------------------------  images:hover  --------------------------------- */
+a.danse {
+   	display: block;
+	height: 50vw;
+	width: 50vw;
+	background: url("images/danse.jpg");
+	background-size: 50%;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	margin-bottom: -25%;
+}
+
+a.danse:hover {
+	background: url("images/danse-hover.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;     
+}
+
+a.internship {
+   	display: block;
+	height: 100vw;
+	width: 100vw;
+	background: url("images/internship.jpg");
+	background-size: 50%;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	margin-bottom: -133%;
+}
+
+a.internship:hover {
+	background: url("images/internship-hover.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;     
+}
+
+a.astro {
+   	display: block;
+   	text-align: center;
+	height: 50vw;
+	width: 50vw;
+	background: url("images/astro.jpg");
+	background-size: 50%;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	margin-bottom: -25%;
+	
+}
+
+a.astro:hover {
+	background: url("images/astro-hover-noir.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;     
+}
+
+   /* ---------------------------------  drag&drop  --------------------------------- */
+
+
+#bandedragdrop {
+	position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    text-align: center;
+    height: 5vw;
+    cursor: move;
+}
+
+/* h5 {
+	text-align: right;
+	font-size: 2.5vw;
+	font-family: 'Helvetica', sans-serif;
+	color: black; 
+	text-decoration: none; 
+	margin-left: 1vw; 
+
+} */
+
+
+         /* ---------------------------------  texte  --------------------------------- */
+
+   
+
+.titre{
+	font-size: 120%;
+	font-family: 'SangBleuEmpire-Regular', sans-serif;
+	color: black; 
+	text-decoration: none; 
+	margin-top: 2%;
+	margin-bottom: 0.5%;
+	margin-left: 1vw; 
+	line-height: 1.2; //  computes to (font-size * line-height);
+}
+
+.titre:hover { 
+	color: blue; } 
+
+.description {
+	font-size: 90%;
+	font-family: 'Helvetica', sans-serif;
+	color: black; 
+	text-decoration: none;
+	margin-top: -0.6%;
+	margin-bottom: 0.5%;
+	margin-left: 2vw;
+	line-height: 0.5; //  computes to (font-size * line-height);
+}
+
+.trait {
+	margin-bottom: 3%;
+	margin-top: 1%;
+}
+
+.trait-menu {
+	border-top : 1px solid #000;
+	width : 500px;
+	margin-top: 1%;
+}
+
+         /* ---------------------------------  copyright  --------------------------------- */
+
+.copyright {
+	display: block;
+    position: fixed;
+    top: 98%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    mix-blend-mode: difference;
+    color: #f4ede9;
+    font-family: 'SangBleuEmpire-Regular', Arial, sans-serif;
+    font-size: 68%
+
+}
+
+.menu-milieu {
+	display: block;
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    mix-blend-mode: difference;
+    color: #f4ede9;
+    font-family: 'SangBleuEmpire-Regular', Arial, sans-serif;
+    font-size: 100%
+}
+
+
