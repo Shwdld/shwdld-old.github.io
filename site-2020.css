@@ -1,35 +1,5 @@
 
 @font-face {
-    font-family: "SangBleuEmpire-Medium";
-    src: url('font/SangBleuEmpire-Medium.otf');
-}
-
-@font-face {
-    font-family: "SangBleuEmpire-Regular";
-    src: url('font/SangBleuEmpire-Regular.otf');
-}
-
-@font-face {
-    font-family: "SangBleuSerif-Light";
-    src: url('font/SangBleuSerif-Light.otf');
-}
-
-@font-face {
-    font-family: "SangBleuSerif-LightItalic";
-    src: url('font/SangBleuSerif-LightItalic.otf');
-}
-
-
-@font-face {
-    font-family: "NeueHaasDisplay-XXThin";
-    src: url('font/NeueHaasDisplay-XXThin.ttf');
-}
-
-@font-face {
-    font-family: "NeueHaasDisplay-Light";
-    src: url('font/NeueHaasDisplay-Light.ttf');
-}
-@font-face {
     font-family: "NeueHaasDisplay-Roman";
     src: url('font/NeueHaasDisplay-Roman.ttf');
 }
