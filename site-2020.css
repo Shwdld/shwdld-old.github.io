@@ -81,6 +81,9 @@ i {
 }
 
 /* ---------------------------------  général  --------------------------------- */
+.trait {
+  margin-bottom: 10px;
+}
 
 .trait-menu {
   border-top: 1px solid #000;
@@ -215,11 +218,17 @@ a {
 /* ---------------------------------  scroll droite/gauche  --------------------------------- */
 
 /* Menu page */
-#sidebar-right,
-#sidebar-left,
-#about,
+/* #sidebar-right,
+#sidebar-left, */
+/* #about,
 #contact,
 #cv {
+  margin-top: 4.5%;
+} */
+
+#about > *:first-child,
+#contact > *:first-child,
+#cv > *:first-child {
   margin-top: 4.5%;
 }
 
