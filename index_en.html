@@ -10,7 +10,8 @@
             gtag('config', 'UA-124583980-1');
         </script>
 
-        <meta charset="UTF-8">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="site-2020.css" media="screen">
         <script
             src="http://code.jquery.com/jquery-3.2.1.min.js"
@@ -37,7 +38,9 @@
 		  <a href="#about" class="open" data-target="about"> About</a>
 		  <a href="#contact" class="open" data-target="contact"> Contact </a>
 		  <a href="#cv" class="open" data-target="cv"> Cv </a>
-		  <a href="index.html" id="fr_en"> <b> engl.</b> — fr.</a>
+		  <a href="index.html" id="fr_en">— fr.</a>
+
+		  <!--a href="index.html" id="fr_en"> <b> engl.</b> — fr.</a-->
 		</div>
 	</header>
 
@@ -51,8 +54,8 @@
 					     <div class="trait-menu"></div>
                     </div><br/><br/>
 				  	<p class="description"> Hi! 
-						I’m Léontine, I am a 23 year old French Digital design student based in Paris. I'm currently studying in DSAA Design and Digital Creation at l’École Estienne. I have an interdisciplinary profile and I take a particular interest in working at the intersection between virtual and physical world.
-						Captivated not only by the immateriality of digital space, but also by the natural and tactile beauty of physical substance, my main research focuses on creating bridges between distinct areas. I especially am interested in the links between new technologies, the natural environment and human sensibility, which has been a large part of our reflections throughout our research thesis collection "Transitional Spaces".
+						I’m Léontine, I am a 23 year old French Digital design student based in Paris. I'm currently studying in Master 2 Design, creation, projet, transdisciplinarity in residency at the Mobilier national after studying in DSAA Design and Digital Creation at l’École Estienne. I have an interdisciplinary profile and I take a particular interest in working at the intersection between virtual and physical world.<br/><br/>
+						My main research focuses on creating bridges between distinct areas. I especially am interested in the links between new technologies, the natural environment and human sensibility, which has been a large part of our reflections throughout our research thesis collection "Transitional Spaces".
 						Convinced about the influence the design can have while building a more positive and sustainable futur, exploring future stakes of new technologies is one of the most important drivers for me. Whether through collaborative projects, installations, reflections on its practices or its documentary and mediation potential.<br/><br/></p>
 				  	<div class="trait">   
 					     <div class="trait-menu"></div>
@@ -174,7 +177,7 @@
 	                    <!-- _____ danse _____ -->
 
         <div class="open" data-target="sidebar-left-info">
-	                <img data-tilt src="images/danse.jpg" width="50%">
+	                <img id="cursor" src="hover/danse-hover.jpg" width="100%">
 	                	<!--img src="images/danse-blur.jpg" onmouseover="this.src='images/danse-hover.jpg'" onmouseout="this.src='images/danse-blur.jpg'" width="50%" height="auto"-->
 	               <!--div class="blurOut">
 	                	<img class="blurImage" src="images/danse-hover.jpg" width="50%" height="auto">
@@ -193,7 +196,7 @@
 	                    <!-- _____ internship _____ -->
 					     
         <div class="open" data-target="sidebar-left-info2">
-        			<img data-tilt src="images/internship.jpg" width="100%">
+        			<img id="cursor" src="hover/internship-hover.jpg" width="100%">
 					<!--img src="images/internship-blur.jpg" onmouseover="this.src='images/internship-hover.jpg'" onmouseout="this.src='images/internship-blur.jpg'" width="100%" height="auto"-->
 					<h1 class = "titre open" data-target="sidebar-left-info2"> 2018 — Internship report</h1>
 					<div class="trait">	          
@@ -208,7 +211,7 @@
 	                    <!-- _____ capteur cardiaque _____ -->
 
         <div class="open" data-target="sidebar-left-info3">
-        			<img data-tilt src="images/cardiaque.jpg" width="70%" max-height="50%">
+        			<img id="cursor" src="hover/cardiaque-hover.jpg" width="100%">
 					<!--img src="images/cardiaque-blur.jpg" onmouseover="this.src='images/cardiaque-hover.jpg'" onmouseout="this.src='images/cardiaque-blur.jpg'" width="100%" height="auto"-->
 				
 					<h1 class = "titre open" data-target="sidebar-left-info3"> 2020 — Heart rate sensor</h1>
@@ -227,7 +230,7 @@
 	                    <!-- _____ empreinte _____ -->
 
         <div class="open" data-target="sidebar-left-info4">
-        	       <img class="empreintes-black" data-tilt src="images/empreintes.jpg" width="95%">
+        	       <img id="cursor" src="hover/empreintes-hover.jpg" width="100%">
 					<!--img src="images/empreintes-blur.jpg" style="width:100%" onmouseover="this.src='images/empreintes-hover.jpg'" onmouseout="this.src='images/empreintes-blur.jpg'" height:"auto"-->
 					<h1 class = "titre"> 2018 — Empreintes </h1>
 					<div class="trait">   		          
@@ -242,7 +245,7 @@
 	                    <!-- _____ espaces transitoires _____ -->
 
                 <div class="open" data-target="sidebar-left-info5">
-        	       <img class="transitoire-black" data-tilt src="images/danse.jpg" width="50%">
+        	       <img id="cursor" src="hover/caerulean-hover.jpg" width="100%">
 					<!--img src="images/empreintes-blur.jpg" style="width:100%" onmouseover="this.src='images/empreintes-hover.jpg'" onmouseout="this.src='images/empreintes-blur.jpg'" height:"auto"-->
 					<h1 class = "titre"> 2020 — Cærulean </h1>
 					<div class="trait">   		          
@@ -275,20 +278,44 @@
 			  	<p class="description"> Entre deux is a video project. It is a contemplative reflection on transhumanism. It questions the frontiers of human-machine relations through movement, and more particularly dance. <br/><br/></p>
 					<!--iframe src="https://player.vimeo.com/video/412687404" width="640" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe-->
 				<img src="images/danse1.jpg" width="40%" >
-				<img src="images/danse-hover.jpg" width="40%" >
+				<img src="images/danse2.jpg" width="40%" >
 				<img src="images/danse3.jpg" width="40%" >
 				<br/><br/>
 				<p class="description"> The choreography begins with jerky, robotic movements, for both the dancer and the drone. Their movements are similar, like a mime game. As time goes by, the dance becomes more and more fluid, so that the body and the drone respond to each other, until they merge. Colours are neutral and pure. White symbolizes as much the technical tool as a spiritual figure, purely human (marriage, union).<br/>
 					<br/>
 				Project realized in collaboration with Chloé Michel, Loriane Cateloy-Rose and the Espace Albatros, Montreuil.
 					<br/><br/><br/></p>
+				<video width="100%" autoplay loop>
+   					<source src="videos/danse-video1.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
+				<video width="100%" autoplay loop>
+   					<source src="videos/danse-video2.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
+				<video width="100%" autoplay loop>
+   					<source src="videos/danse-video3.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
+				<video width="100%" autoplay loop>
+   					<source src="videos/danse-video4.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
+				<video width="100%" autoplay loop>
+   					<source src="videos/danse-video5.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
+				<video width="100%" autoplay loop>
+   					<source src="videos/danse-video6.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
 
-				<img src="images/danse-gif1.gif" width="100%" >
+				<!--img src="images/danse-gif1.gif" width="100%" >
 				<img src="images/danse-gif2.gif" width="100%" >
 				<img src="images/danse-gif3.gif" width="100%" >
 				<img src="images/danse-gif4.gif" width="100%" >
 				<img src="images/danse-gif5.gif" width="100%" >
-				<img src="images/danse-gif6.gif" width="100%" >
+				<img src="images/danse-gif6.gif" width="100%" -->
 
 				<div class="trait">   
                      <div class="trait-menu"></div>
@@ -316,7 +343,7 @@
 		                </div><br/>
 			  	<p class="description"> I did this internship at Brokendoll, it is a digital agency in Stockholm, Sweden. The agency work focus mainly on digital creative direction. I also had the opportunity to participate to the shooting of a Chinese live TV show called « The Amazing Race » which was a crazy experience.<br/>
 			  	<br/></p>
-			  	<img src="images/internship-hover.jpg" width="100%" >
+			  	<img src="images/internship2.jpg" width="100%" >
 			  		<br/><br/>
 			  	<p class="description">
 				I used the Japanese technique for binding the two copies I made. I particularly worked on the colors and texture of the paper, which I wanted to be both « neutrals, naturals » in order to reminds the colors of Sweden, but with some touch of neon colors to reminds the digital part.<br/>
@@ -360,8 +387,14 @@
 				The installation is an experimental project, working thanks to the heartbeat of the user. We welded pieces of metal and used <i>La Malinette</i> to make the heart rate sensor work. 
 				</p>
 				<br/><br/>
-				<img src="images/cardiaque-gif5.gif" width="100%" >
-				<img src="images/cardiaque-gif6.gif" width="100%" >
+				<video width="100%" autoplay loop>
+   					<source src="videos/cardiaque-video1.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
+				<video width="100%" autoplay loop>
+   					<source src="videos/cardiaque-video2.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
 				<br/><br/>
 			<p class="description"> 
 				We wanted to make it water a plant at the rhythm of a heatbeat, but the workshop was really short. So we just had time to make that little installation, which is still an interesting interaction to play with.<br/>
@@ -395,8 +428,11 @@
 					Les <i>Estiennales</i> is an event which takes place each year in our school. It lasts a few days during which every student and teacher can attend to some conferences all day long and there is a cosplay at the end of the week. The theme change every year, and this year it was « En marge » which means « marginal, side note » but we can also read it as « outsider ». We thought we can be outsider because we are outside a groupe, and also within a group. But in any case, the word outsider implies a groupe. 
 					 </p><br/>
 
-					<img src="images/empreintes-gif1.gif" width="100%" >
-					<!--img src="images/empreintes-gif5.gif" width="50%" -->
+					<video width="100%" autoplay loop>
+   						<source src="videos/empreintes-video1.mp4" type="video/mp4" />
+				   		Your browser does not support the video element.
+					</video>
+
 					<br/><br/>
 				<p class="description">
 					This is what inspires us to create different groups (red, blue, yellow), made physical by creating spots throughout the school. We put some markers on three different places, which allows access to an augmented reality landscape. The content (usually videos) would then be accessible by scanning and interacting with these augmentations.<br/>
@@ -407,8 +443,10 @@
 		                      <div class="trait-menu"></div>
 		                </div>
 		                <br/>
-					<img src="images/empreintes-gif3.gif" width="100%" >
-					<img src="images/empreintes-gif2.gif" width="100%" >
+				<video width="100%" autoplay loop>
+   					<source src="videos/empreintes-video2.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
 
 			   <br/><br/>
                 <div id="drag-empreintes" class="draggable-tire-part drag"> 
@@ -432,12 +470,19 @@
 		                      <div class="trait-menu"></div>
 		                </div><br/>
 			  	<p class="description"> Cærulean blue is a pigment used in painting, giving a shade of sky blue. Its color remains even in candlelight, which make it, according to an old term, a light blue..<br/><br/></p>
-			  	<img src="images/caerulean-gif2.gif" width="100%" >
+			  	<video width="100%" autoplay loop>
+   					<source src="videos/caerulean-video6.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
 
 			  	<p class="description">
 				Cærulean is the project of a reconnection between humain being, natural environnement and new technologies, aiming to approach our digital spaces in a new, more sensitive way.<br/><br/></p>
 			
-				<img src="images/caerulean-gif5.gif" width="100%" >
+				<video width="100%" autoplay loop>
+   					<source src="videos/caerulean-video9.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video><br/>
+				<br/>
 				<p class="description">
 				Throughout this project, we want you to travel between two spaces, physical space and virtual space, through sensitive exchanges, an experience of the passing time and the present moment.  <br/>
 				<br/>
@@ -445,6 +490,57 @@
 				<br/>
 				This reflection takes the form of a glossary in which we organized different possibilities of graphic answers. <br/>
 				<br/>
+
+				<style>
+.iframe-container{
+margin: 0 auto;
+max-width:100%;
+width:560px;
+height:315px;
+}
+@media only screen and (max-width: 992px) {
+	.iframe-container{
+		width: 80%;
+		height:400px;
+	}
+}
+@media only screen and (max-width: 600px) {
+   .iframe-container{
+		width: 100%;
+		height:500px;
+	}
+}
+</style>
+<div class="iframe-container">
+<iframe style="width:100%;height:100%;border:none" src="https://www.youtube.com/embed/-QhUDpATKnA" scrolling="yes">This browser does not support Iframe</iframe>
+</div> <br/>
+
+<style>
+.iframe-container{
+margin: 0 auto;
+max-width:100%;
+width:560px;
+height:315px;
+}
+@media only screen and (max-width: 992px) {
+	.iframe-container{
+		width: 80%;
+		height:400px;
+	}
+}
+@media only screen and (max-width: 600px) {
+   .iframe-container{
+		width: 100%;
+		height:500px;
+	}
+}
+</style>
+<div class="iframe-container">
+<iframe style="width:100%;height:100%;border:none" src="https://www.youtube.com/embed/EQ0YLY2Fi8I" scrolling="yes">This browser does not support Iframe</iframe>
+</div><br/>
+ 				
+ 				<br/>
+				<p class="description">
 				Project in collaboration with Mathilde Käppler and Léo Bindner.
 			  	 </p><br/>
 			  	 <img src="images/caerulean-gif1.gif" width="100%" >
@@ -472,7 +568,7 @@
 	                    <!-- _____ Identité ae _____ -->
 
 		<div class="open" data-target="sidebar-right-info2">
-					<img class="ae-black" data-tilt src="images/danse.jpg" width="50%">
+					<img id="cursor" src="hover/ae-hover.jpg" width="100%">
          			<!--img src="images/ae-blur.png" onmouseover="this.src='images/ae-hover.jpg'" onmouseout="this.src='images/ae-blur.png'" width="100%" height="auto"-->
 					<h1 class = "titre"> 2020 — æ identity </h1>
 					<div class="trait">   		          
@@ -488,7 +584,7 @@
 	                    <!-- _____ INA _____ -->
 
         <div class="open" data-target="sidebar-right-info3">
-        	<img data-tilt src="images/internship.jpg" width="100%">
+        	<img id="cursor" src="hover/ina-hover.jpg" width="100%">
          			<!--img src="images/ina-blur.png" onmouseover="this.src='images/ina-hover.jpg'" onmouseout="this.src='images/ina-blur.png'" width="100%" height="auto"     overflow="hidden"
     -webkit-border-radius="50px"
     -moz-border-radius="50px"
@@ -507,7 +603,7 @@
 	                    <!-- _____ Capsule temporelle _____ -->
 
         <div class="open" data-target="sidebar-right-info4">
-        			<img class="capsule-black" data-tilt src="images/empreintes.jpg" width="90%">
+        			<img id="cursor" src="hover/capsule-hover.jpg" width="100%">
          			<!--img src="images/capsule-blanc.jpg" onmouseover="this.src='images/capsule.jpg'" onmouseout="this.src='images/capsule-blanc.jpg'" width="100%" height="auto"-->
 					<h1 class = "titre"> 2018 — Time capsule </h1>
 					<div class="trait">   		          
@@ -522,7 +618,7 @@
 	                    <!-- _____ Astro Noise _____ -->
 
         <div class="open" data-target="sidebar-right-info5">
-        			<img class="astro-black" data-tilt src="images/danse.jpg" width="50%">
+        			<img id="cursor" src="hover/astro-hover.jpg" width="100%">
 					<!--img src="images/astro-blanc.jpg" onmouseover="this.src='images/astro-hover.jpg'" onmouseout="this.src='images/astro-blanc.jpg'" width="100%" height="auto"-->
 					<h1 class = "titre"> 2018 — Astro Noise </h1>
 					<div class="trait">   		          
@@ -539,7 +635,7 @@
 					<!--video loop src="img/swiss_clock.mp4" width="100%" height="50%" class="open" data-target="sidebar-right-info6" autoplay></video-->
 
         <div class="open" data-target="sidebar-right-info6">
-        			<img data-tilt src="images/internship.jpg" width="100%">
+        			<img id="cursor" src="hover/quantique-hover.jpg" width="100%">
 					<!--img data-tilt src="images/quantique-blanc.jpg" onmouseover="this.src='images/quantique-hover.jpg'" onmouseout="this.src='images/quantique-blanc.jpg'" width="100%" height="auto"-->
 					<h1 class = "titre"> 2019 — Poissons quantiques </h1>
 					<div class="trait">   		          
@@ -630,7 +726,10 @@
 			  	<p class="description">
 			  		 The French Institut created a collection of sound stories from all over the world. Everyone was invited to tell his « idea of the night ». These sound contributions were crafted by men and women from a lot of countries, related by their French language learning. Our rôle was to value them for the public of the event La Nuit des idées.</p>
 			  		<br/>
-					<div id="hoverElement"><img src="images/ina-gif1.gif" width="100%" ></div>
+					<div id="hoverElement"><video width="100%" autoplay loop>
+   					<source src="videos/ina-video1.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video></div>
 					<audio id="audio" style="visibility:hidden;">
 	   <source src="sons/Son_part1.mp3" type='audio/mpeg; codecs="mp3"'>
 				</audio>
@@ -640,8 +739,10 @@
 					<br/>
 				<div>
 
-				<div id="hoverElement2"><img src="images/ina-gif2.gif" width="100%"></div>
-
+				<div id="hoverElement2"><video width="100%" autoplay loop>
+   					<source src="videos/ina-video2.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video></div>
 				<audio id="audio2" style="visibility:hidden;">
 	   <source src="sons/Son_part2.mp3" type='audio/mpeg; codecs="mp3"'>
 				</audio>
@@ -655,7 +756,17 @@
 					<br/>
 					Project in collaboration with Alexiane Capitaine (Estienne), Valentine Chartrin and Marine Tréhello (INA).</p>
 					<br/>
-				<div id="hoverElement3"><img src="images/ina-gif3.gif" width="100%" ></div>
+				<div id="hoverElement3"><video width="100%" autoplay loop>
+   					<source src="videos/ina-video3.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video></div>
+				<div class="trait">   
+                      <div class="trait-menu"></div>
+                </div>
+				<audio id="audio3" style="visibility:hidden;">
+	   <source src="sons/Son_part3.mp3" type='audio/mpeg; codecs="mp3"'>
+				</audio>
+
 				<div class="trait">   
                       <div class="trait-menu"></div>
                 </div>
@@ -788,8 +899,8 @@
 				}
 				</style>
 				<div class="iframe-container">
-				<iframe style="width:100%;height:100%;border:none" src="https://vimeo.com/430042756" scrolling="yes">This browser does not support Iframe</iframe>
-				</div>
+				<iframe style="width:100%;height:100%;border:none" src="https://player.vimeo.com/video/430042756" scrolling="yes">This browser does not support Iframe</iframe>
+				</div><br/>
 
 
 			  <br/>
@@ -821,18 +932,27 @@
                 </div><br/>
 			  	<p class="description">
 			  	« Poissons quantiques » is the name that Julien Bobroff (University Paris-Sud) chose for his talk on quantum physics. It means "Quantum Fishes", in French, and evokes the erratic but law-governed behavior of large shoals of fish, which allow him to explain the behaviour of objects on a quantum scale. It is this search for metaphors and his desire to make complex concepts intelligible that led him to call upon us, with the aim of « augmenting » his conference. He asked us to create a device that would help, or illustrate his point.<br/><br/></p>
-			  	<img src="images/quantique-gif3.gif" width="100%"><br/>
+			  	<video width="100%" autoplay loop>
+   					<source src="videos/quantique-video2.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
 			  	<p class="description">
 				We wondered how we could use the physicist's tools, such as the oscilloscope, to create a visual narrative and explain differently? It was indeed important to us that they reflect the content as well as the scientific character of the narration.<br/><br/></p>
-				<img src="images/quantique-gif4.gif" width="100%" >
+				<video width="100%" autoplay loop>
+   					<source src="videos/quantique-video3.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
 				<p class="description">
 				So we imagined a visual device on an oscilloscope. We designed 3d objects as well as animations of scientific diagrams, helping to understand and retain the discourse, which we translated into sound waves. Then, thanks to the OsciStudio software, transcribed on the screen of the oscilloscope, with the help of which Julien could play with the visuals live.<br/>
 				<br/>
 				Project in collaboration with Emma Pustienne and Jean-Baptiste Krauss.
 			  	</p>
                 
-				<img src="images/quantique-gif1.gif" width="100%" >
-				<img src="images/quantique-gif2.gif" width="100%" >
+				<video width="100%" autoplay loop>
+   					<source src="videos/quantique-video1.mp4" type="video/mp4" />
+				   Your browser does not support the video element.
+				</video>
+				
 				<div class="trait">   
                      <div class="trait-menu"></div>
                 </div>
